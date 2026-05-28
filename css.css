@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Iosevka Charon', monospace;
+}
+.s1{
+    display: flex;
+    align-items: left;
+    padding: 100px;
+    flex-direction: row;
+    width: 100px;
+    text-align: center;
+}
+.sd11 {
+    padding: 20px;
+}
+.sd12 {
+    padding: 20px;
+}
+.sd13 {
+    padding: 20px;
+}
+.sd14 {
+    padding: 20px;
+}
+.sd15 {
+    padding: 20px;
+}
+.sd16 {
+    padding: 20px;
+}
+.d2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    text-align: center;
+}
+.sd31{
+    padding: 20px;
+}
+.sd32{
+    padding: 20px;
+}
+.sd33{
+    padding: 20px;
+}
+.d1{
+    justify-content: end;
+    align-content: end;
+    padding: 20px;
+    float: inline-end;
+    text-align: center;
+}
+.d3{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}    
+.ds1{
+    justify-content: start;
+    align-content: start;
+    padding: 70px;
+    float: inline-start;
+}
+.ds2{
+    justify-content: end;
+    align-content: end;
+    padding: 70px;
+    float: inline-end;
+}
+.img1 {
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+.edv {
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 20px;
+}
+.sm1{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.dm1{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    max-width: 700px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.dg1{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+.asd1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
